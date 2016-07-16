@@ -1,0 +1,19 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": 2,
+        "no-long-files": [0, 2048],
+        "max-len": [2,80, 4, {"ignoreUrls": true}]
+    },
+    "extends": "eslint:recommended",
+    "env": {
+        "node": true,
+        "mocha": true
+    }
+}
