@@ -7,8 +7,10 @@ import mongodb       from './config/database';
 import bodyParser    from 'body-parser';
 import passport      from 'passport';
 import runTasks      from './tasks';
+import morgan        from 'morgan';
 
 export const app = express();
+app.use(morgan('dev'));
 dotenv.config();
 
 /* eslint-disable no-alert, no-console */
