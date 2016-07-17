@@ -7,7 +7,7 @@ config.mode = process.env.mode;
 
 config.serverport = process.env.PORT || process.env.testPort || 3000;
 
-config.secret = 'SuperSecrets111';
+config.secret = process.env.secret || 'SuperSecrets111';
 
 config.roles = ['guest','user','admin'];
 
