@@ -3,7 +3,7 @@
 const config = {};
 
 // server mode (development or production)
-config.mode = process.env.mode;
+config.mode = process.env.NODE_ENV;
 
 config.serverport = process.env.PORT || process.env.testPort || 3000;
 
