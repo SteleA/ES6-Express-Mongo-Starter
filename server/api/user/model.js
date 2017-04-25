@@ -1,5 +1,5 @@
 import mongoose     from 'mongoose';
-import bcrypt       from 'bcrypt';
+import bcrypt       from 'bcryptjs';
 import randomstring from 'randomstring';
 
 const Schema   = mongoose.Schema;
