@@ -37,7 +37,7 @@ config.mailtrap = {
 
 //mongodb url
 config.mongodb =
-  process.env.mongodb || `localhost/${config.appSettings.appName}`;
+  process.env.mongodb || `mongodb://localhost/${config.appSettings.appName}`;
 
 config.SENDGRIDAPIKEY = process.env.sendgrid;
 
